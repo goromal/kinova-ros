@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(m1n6s300_ikfast)
 
-add_compile_options(-std=c++11)
+set (CMAKE_CXX_STANDARD 11)
+
+project(m1n6s300_ikfast)
 
 find_package(catkin REQUIRED COMPONENTS
   moveit_core
